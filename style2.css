@@ -1,0 +1,149 @@
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to bottom right, #c7d2fe, #fbcfe8, #fef3c7);
+    color: #333;
+  
+    font-size: 18px;
+  }
+  
+  
+  header {
+    background-color: #4f46e5;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 3em;
+  }
+  
+  nav {
+    margin-top: 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    
+    font-size: 1.2em;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  nav a:hover {
+    color: #fde68a;
+    transform: scale(1.1);
+  }
+  
+  main {
+  padding: 40px;
+  }
+  
+  .box{
+    height: 500px;
+    width:  1400px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    display: flex;         
+    justify-content: center;    
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .box img {
+    height: 300px ;
+    width: 400px;
+    margin: 20px;
+    border-radius: 20px;
+  }
+  
+  #about {
+    background-color: #ffffffaa;
+    border-radius: 20px;
+    padding: 60px 40px;
+    margin-bottom: 80px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  #about {
+    background-color: #f5f5ff;
+    border-radius: 10px;
+    padding: 40px 20px;
+    margin-bottom: 60px;
+  }
+  
+  #about h2 {
+    text-align: center;
+    color: #4f46e5;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  
+  .about-text {
+    width: 50%;
+    font-size: 1.1em;
+    line-height: 1.6;
+    padding: 10px;
+  }
+  
+  .about-text strong {
+    color: #4338ca;
+  }
+  
+  .about-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-list li {
+    background: #e0e7ff;
+    margin: 8px 0;
+    padding: 8px 12px;
+    border-radius: 5px;
+  }
+  
+  .about-tagline {
+    text-align: center;
+    color: #4f46e5;
+    font-style: italic;
+    margin-top: 20px;
+  }
+  
+  .about-image {
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .about-image img {
+    width: 90%;
+    border-radius: 10px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  footer {
+    background-color: #3730a3;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 1.1em;
+  }
+  
+  
