@@ -113,7 +113,14 @@ body {
     margin: 8px 0;
   }
   
-  
+  .main-img {
+      display: block;     
+      width: 60%;
+      margin: 20px auto;  
+      padding: 10px;
+      border-radius: 30px;
+  }
+    
   
   footer {
     background-color: #3730a3;
