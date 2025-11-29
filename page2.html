@@ -1,58 +1,68 @@
-
-
 <!DOCTYPE html>
 <html lang="uk">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bon Voyage Ukraine </title>
+  <title>Bon Voyage Ukraine</title>
   <link rel="stylesheet" href="style2.css">
 </head>
 <body>
   <header>
-    <h1>Bon Voyage Ukraine </h1>
+    <h1>Bon Voyage Ukraine</h1>
     <nav>
-        <a href="index.html">Головна</a>
-        <a href="page2.html">Про нас</a>
-        <a href="page3.html">Ціни</a>
-      
-
+      <a href="index.html">Головна</a>
+      <a href="page2.html">Про нас</a>
+      <a href="page3.html">Ціни</a>
+      <a href="page4.html">Тури</a>
+      <a href="contact.html">Контакти</a>
     </nav>
   </header>
 
   <main>
-    <nav>
-      <div class="box">
-        <img src="https://images.unsplash.com/photo-1499002238440-d264edd596ec?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170">
-        <img src="https://images.unsplash.com/photo-1473951574080-01fe45ec8643?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1204">
-        <img src="https://media.istockphoto.com/id/1437434096/photo/mediterranean-sea-in-south-of-france-near-roquebrune-cap-martin-and-monaco.webp?a=1&b=1&s=612x612&w=0&k=20&c=8pnxVpI_IC65rH2RHCgsRBs3Oe1hMZC3yVFCqNxV-I8="">
+    <div class="css-slider">
+      <input type="radio" name="slider" id="slide1" checked>
+      <input type="radio" name="slider" id="slide2">
+      <input type="radio" name="slider" id="slide3">
+
+      <div class="slides">
+        <div class="slide s1">
+          <img src="https://images.unsplash.com/photo-1499002238440-d264edd596ec?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt="Фото 1">
+        </div>
+        <div class="slide s2">
+          <img src="https://images.unsplash.com/photo-1473951574080-01fe45ec8643?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1204" alt="Фото 2">
+        </div>
+        <div class="slide s3">
+          <img src="https://media.istockphoto.com/id/1437434096/photo/mediterranean-sea-in-south-of-france-near-roquebrune-cap-martin-and-monaco.webp?a=1&b=1&s=612x612&w=0&k=20&c=8pnxVpI_IC65rH2RHCgsRBs3Oe1hMZC3yVFCqNxV-I8=" alt="Фото 3">
+        </div>
       </div>
+
+      <div class="navigation">
+        <label for="slide1" class="bar"></label>
+        <label for="slide2" class="bar"></label>
+        <label for="slide3" class="bar"></label>
+      </div>
+    </div>
+
     <section id="about">
-  <h2>Про нашу туристичну агенцію</h2>
-  <div class="about-content">
-    <div class="about-text">
-      <p><strong>Bon Voyage Ukraine</strong> — туристична агенція, яка вже понад <strong>10 років відкриває Європу для українців</strong>.</p>
-      <p>Наша місія — зробити подорожі у Францію доступними, комфортними й незабутніми. Ми організовуємо <strong>індивідуальні тури</strong>, <strong>групові подорожі</strong> та <strong>романтичні вікенди</strong> у найкрасивіших куточках Франції — від Парижа до Провансу.</p>
-
-      <ul class="about-list">
-        <li>✈️ Зручні перельоти та трансфери</li>
-        <li>🏨 Перевірені готелі 3–5★</li>
-        <li>🍷 Гастрономічні тури з дегустаціями</li>
-        <li>🎨 Екскурсії від місцевих гідів</li>
-        <li>❤️ Турбота про кожну деталь вашої подорожі</li>
-      </ul>
-
-      <p class="about-tagline">Ми не просто продаємо тури — ми створюємо враження, що залишаються назавжди 🌍✨</p>
-    </div>
-
-    <div class="about-image">
-      <img src="https://images.unsplash.com/photo-1508057198894-247b23fe5ade?auto=format&fit=crop&w=1000&q=60" alt="Французький тур">
-    </div>
-  </div>
-</section>
-
-
-
+      <h2>Про нашу туристичну агенцію</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p><strong>Bon Voyage Ukraine</strong> — туристична агенція, яка вже понад <strong>10 років відкриває Європу для українців</strong>.</p>
+          <p>Наша місія — зробити подорожі у Францію доступними, комфортними й незабутніми. Ми організовуємо <strong>індивідуальні тури</strong>, <strong>групові подорожі</strong> та <strong>романтичні вікенди</strong> у найкрасивіших куточках Франції — від Парижа до Провансу.</p>
+          <ul class="about-list">
+            <li>✈️ Зручні перельоти та трансфери</li>
+            <li>🏨 Перевірені готелі 3–5★</li>
+            <li>🍷 Гастрономічні тури з дегустаціями</li>
+            <li>🎨 Екскурсії від місцевих гідів</li>
+            <li>❤️ Турбота про кожну деталь вашої подорожі</li>
+          </ul>
+          <p class="about-tagline">Ми не просто продаємо тури — ми створюємо враження, що залишаються назавжди 🌍✨</p>
+        </div>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1508057198894-247b23fe5ade?auto=format&fit=crop&w=1000&q=60" alt="Французький тур">
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
